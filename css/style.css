@@ -1,0 +1,36 @@
+/*RESET*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*UTILITY*/
+.container{
+  width: 80%;
+  max-width: 1100px;
+  min-width: 600px;
+  margin: 0 auto;
+
+}
+
+/*HEADER*/
+
+header{
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: aqua;
+}
+
+header .nav-bar{
+  height: 100px;
+  background-color:rgb(252, 6, 157);
+}
+
+
+/*BODY*/
+
+body .jumbotron{
+  height: 400px;
+  background-color: rgba(255, 255, 0, 0.562);
+}
