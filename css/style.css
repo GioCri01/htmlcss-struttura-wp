@@ -14,12 +14,18 @@
 
 }
 
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /*HEADER*/
 
 header{
   height: 100px;
   margin-bottom: 20px;
-  background-color: aqua;
+ 
 }
 
 header .nav-bar{
@@ -30,7 +36,44 @@ header .nav-bar{
 
 /*BODY*/
 
-body .jumbotron{
+
+
+main .jumbotron{
   height: 400px;
   background-color: rgba(255, 255, 0, 0.562);
+  margin-bottom: 20px;
 }
+
+main .main-content{
+  background-color: blue;
+}
+
+main .title{
+  height: 50px;
+  margin-bottom: 20px;
+  background-color: rgb(0, 195, 255);
+}
+
+.col-sx,.col-dx{
+  height: 600px;
+  width: 19%;
+  background-color: rgb(0, 195, 255);
+  float: left;
+  
+}
+
+.col-sx{
+  margin-right: 1%;
+}
+
+.col-dx{
+  margin-left: 1%;
+}
+
+.center{
+  height: 600px;
+  width: 60%;
+  background-color: rgb(0, 195, 255);
+  float: left;
+}
+
